@@ -1,0 +1,6 @@
+default-mute-duration: "10m"
+default-ban-duration: "1d"
+warn-threshold: 3
+mute-chat-message: "&cYou are muted. Remaining: {remaining}."
+ban-kick-message: "&cYou are banned. Reason: {reason}. Remaining: {remaining}"
+warn-auto-kick-message: "&cYou have been kicked due to too many warnings."

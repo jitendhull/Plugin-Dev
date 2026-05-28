@@ -1,0 +1,80 @@
+name: DemiseCore
+version: ${project.version}
+main: com.demise.core.DemiseCorePlugin
+api-version: "1.21"
+commands:
+  balance:
+    description: View your balance.
+    usage: /balance [player]
+    permission: demisecore.economy.balance
+  pay:
+    description: Pay another player.
+    usage: /pay <player> <amount>
+    permission: demisecore.economy.pay
+  setbalance:
+    description: Set a player's balance.
+    usage: /setbalance <player> <amount>
+    permission: demisecore.admin.setbalance
+  givemoney:
+    description: Give money to a player.
+    usage: /givemoney <player> <amount>
+    permission: demisecore.admin.give
+  takemoney:
+    description: Take money from a player.
+    usage: /takemoney <player> <amount>
+    permission: demisecore.admin.take
+  mute:
+    description: Mute a player.
+    usage: /mute <player> [duration] [reason]
+    permission: demisecore.moderation.mute
+  unmute:
+    description: Unmute a player.
+    usage: /unmute <player>
+    permission: demisecore.moderation.unmute
+  warn:
+    description: Warn a player.
+    usage: /warn <player> <reason> [severity]
+    permission: demisecore.moderation.warn
+  ban:
+    description: Ban a player.
+    usage: /ban <player> [duration] [reason]
+    permission: demisecore.moderation.ban
+  unban:
+    description: Unban a player.
+    usage: /unban <player>
+    permission: demisecore.moderation.unban
+  kick:
+    description: Kick a player.
+    usage: /kick <player> [reason]
+    permission: demisecore.moderation.kick
+  modlog:
+    description: View moderation logs for a player.
+    usage: /modlog <player>
+    permission: demisecore.moderation.modlog
+permissions:
+  demisecore.economy.balance:
+    default: true
+  demisecore.economy.balance.others:
+    default: op
+  demisecore.economy.pay:
+    default: true
+  demisecore.admin.setbalance:
+    default: op
+  demisecore.admin.give:
+    default: op
+  demisecore.admin.take:
+    default: op
+  demisecore.moderation.mute:
+    default: op
+  demisecore.moderation.unmute:
+    default: op
+  demisecore.moderation.warn:
+    default: op
+  demisecore.moderation.ban:
+    default: op
+  demisecore.moderation.unban:
+    default: op
+  demisecore.moderation.kick:
+    default: op
+  demisecore.moderation.modlog:
+    default: op

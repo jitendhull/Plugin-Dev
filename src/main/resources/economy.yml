@@ -1,0 +1,4 @@
+currency-name: "Coins"
+starting-balance: 100
+min-pay-amount: 1
+max-pay-amount: 1000000
