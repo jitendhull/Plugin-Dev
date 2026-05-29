@@ -1,4 +1,4 @@
-# Plugin-Dev
+# Plugin-Dev  ( DEVELOPMENT STOPPED FOR NOW )
 DemiseCore is a Paper 1.21.1+ all-in-one core plugin with economy, admin, and moderation tools.
 
 ## Build
